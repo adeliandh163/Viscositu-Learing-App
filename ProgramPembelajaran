@@ -1,0 +1,962 @@
+%Adelia Indah Wahyuni 211810201037
+%Aradea Yofa Harmuji 211810201007
+clear all;
+clc;
+disp('                        Belajar Viskositas Yuk!                         ');
+disp('                        1. Sejarah Viskositas                     ');
+disp('                        2. Teori Viskositas                       ');
+disp('                        3. Pilihan Ganda                          ');
+disp('                        4. Matching Words                          ');
+disp('                                                                  ');
+disp('-----------------------------------------------------------------------------');
+disp('========================Program By Adelia dan Aradea=========================');
+disp('=============================Selamat Belajar:))))============================');
+disp('                                                                    ');
+pilih=menu('Pilih Metode: ','Sejarah Viskositas','Teori Viskositas','Pilihan Ganda','Matching Words');
+switch pilih
+    case 1 
+        disp('Sejarah Viskositas                                         ');
+        input('                                                           ');
+        disp('Sekitar tahun 1840 seorang Irlandia bernama Sir George Stokes melakukan sebuah riset');
+        disp('tentang viskositas. Pengujiannya dengan menjatuhkan partikel ke dalam cairan dan    ');
+        disp('mengukur seberapa cepat partikel tersebut jatuh ke bawah. Dia menemukan bahwa       ');
+        disp('partikel yang sama akan tenggelam pada kecepatan yang berbeda dalam cairan yang     ');
+        disp('berbeda. Stokes menduga ada beberapa jenis gesekan internal dalam cairan yang       ');
+        disp('menyebabkan tingkat jatuh cairan berbeda-beda. Dia menguji teori ini dengan         ');
+        disp('berbeda. Stokes menduga ada beberapa jenis gesekan internal dalam cairan yang       ');
+        disp('menyebabkan tingkat jatuh cairan berbeda-beda.Dia menguji teori ini dengan          ');
+        disp('meletakkan cairan dalam tabung gelas dan mengukur berapa lama cairan mengalir dalam ');
+        disp('jarak tertentu. Tes-tes ini menghasilkan hukum Stokes dan bentuk pengukuran         ');
+        disp('viskositas yang berbeda. Maka ditetapkan dengan satuan centistokes (cSt)digunakan   ');
+        disp('untuk pembacaan yang lebih mudah. Pengukuran viskositas ini diberi istilah kinematik');
+    case 2
+        disp('Teori viskositas                                           ');
+        input('                                                           ');
+        disp('Viskositas adalah suatu cara untuk menyatakan berapa daya tahan dari aliran yang     ');
+        disp('diberikan oleh suatu cairan. Kebanyakan viscometer mengukur kecepatan dari suatu     ');
+        disp('cairan mengalir melalui pipa gelas (gelaskapiler). Definisi lain dari viskositas     ');
+        disp('adalah ukuran yang menyatakan kekentalan suatu cairan atau fluida. Kekentalan        ');
+        disp('merupakan sifat cairan yang berhubungan erat dengan hambatan untuk mengalir.         ');
+        disp('Viskositas cairan akan menimbulkan gesekan antar bagian atau lapisan cairan yang     ');
+        disp('yang bergerak satu terhadap yang lain. Hambatan atau gesekan yang terjadi ditimbulkan');
+        disp('oleh gaya kohesi di dalam zat cair.                                                  ');
+        input('                                                                                     ');
+        disp('Menurut desiria Viskositas atau kekentalan suatu zat cair adalah salah satu sifat    ');
+        disp('cairan yang menentukan besarnya perlawanan terhadap gaya gesar. Viskositas terjadi   ');
+        disp('terutama karena adanya interaksi antara molekul-molekul cairan. Viskositas merupakan ');
+        disp('ukuran gesekan dibagian dalam suatu fluida. Fluida sebenarnya terdiri atas beberapa  ');
+        disp('lapisan, karena adanya viskositas diperlukan gaya untuk meluncurkan suatu lapisan    ');
+        disp('fluida diatas fluida lainnya.                                                        ');
+        input('                                                                                     ');
+        disp('Viskositas dapat ditentukan secara kuantitatif dengan besaran yang disebut koefisien ');
+        disp('viskositas. Banyak cara yang telah digunakan untuk mengukur viskositas, salah satunya');
+        disp('adalah dengan manggunakan metode viskometer bola jatuh, namun metode ini mempunyai   ');
+        disp('beberapa kekurangan. Dari kekurangan itu dan dibutuhkannya sebuah alat praktis dan   ');
+        disp('mudah digunakan untuk mengetahui viskositas maka dibuatlah viskometer rotasi berbasis');
+        disp('mikrokontroler.                                                                      ');
+    case 3
+        disp('Pilihan Ganda                                                                        ');
+        syms A;
+        syms B;
+        syms C;
+        syms D;
+        k=0;
+        l=0;
+        m=0;
+        disp('                                                                                     ');
+        disp('Soal pilihan ganda terdiri dari 3 soal, tuliskan jawaban dengan huruf kapital yaaa   ');
+        disp('====================================Semangattttt!====================================');
+        input('                                                                                     ');
+        disp('                                     Soal Pertama                                    ');
+        disp('Viskositas atau kekentalan suatu zat cair adalah salah satu cairan yang menentukan   ');
+        disp('besarnya perlawanan terhadap gaya gesar. Teori tersebut dikemukakan oleh...          ');
+        disp('A.JJ Thompson    B.James Bond    C.Desiria    D.10230')
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        k=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Menurut desiria Viskositas atau kekentalan suatu zat cair adalah salah satu cairan');
+        disp('yang menentukan besarnya perlawanan terhadap gaya gesar.');
+        input('Jawaban yang tepat adalah C. Desiria');
+        disp(['Skor kamu ', num2str(salah)]);
+        k=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Kedua                                      ');
+        disp('Riset viskositas pertama kali dilakukan pada tahun...                                ');
+        disp('A.1990            B.1980          C.1840      D.1890                                 ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        l=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Sekitar tahun 1840 seorang Irlandia bernama Sir George Stokes melakukan sebuah riset');
+        disp('tentang viskositas.');
+        input('Jawaban yang tepat adalah C.1840');
+        disp(['Skor kamu ', num2str(salah)]);
+        l=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Ketiga                                     ');
+        disp('Pengukuran viskositas diberi istilah dengan...                                       ');
+        disp('A.Kinematik            B.Potensial          C.Kinentik      D.Poliatomik             ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==A;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        m=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Pengukuran viskositas diberi istilah dengan kinematik');
+        input('Jawaban yang tepat adalah A.Kinematik');
+        disp(['Skor kamu ', num2str(salah)]);
+        m=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        Total=k+l+m
+        skor=Total;
+        if skor> 60
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  A');
+            disp('Yeyyy selamat nilainya bagus lohhh');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        elseif skor<=55 && skor> 40
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  B');
+            disp('Next lebih teliti yaaa, semangattt');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        else
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  C');  
+            disp('Belajarnya harus ditingkatin nih, semangat');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        end
+    case 4
+        syms A;
+        syms B;
+        syms C;
+        syms D;
+        syms E;
+        k=0;
+        l=0;
+        m=0;
+        disp('                                                                                     ');
+        disp('Matching Words                                                                          ');
+        disp('Matching Words terdiri dari 3 soal, tuliskan jawaban dengan huruf kapital yaaa          ');
+        disp('====================================Semangattttt!====================================');
+        disp('                                                                                     ');
+        disp('Soal ini merupakan isian singkat');
+        disp('Pilih salah satu jawaban dibawah untuk menjawab tiap soal');
+        disp('A.CAIRAN');
+        disp('B.CENTISTOKES');
+        disp('C.PIPA GELAS');
+        disp('D.VISKOSITAS');
+        disp('E.IRLANDIA');
+        disp('Jawab soal dengan menuliskan opsi menggunakan huruf kapital');
+        input('                                                                                     ');
+        disp('                                     Soal Pertama                                    ');
+        disp('Kebanyakan viskometer mengukur kecepatan dari suatu cairan mengalir melalui...       ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        k=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Kebanyakan viskometer mengukur kecepatan dari suatu cairan mengalir melalui');
+        disp('PIPA GELAS');
+        disp(['Skor kamu ', num2str(salah)]);
+        k=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Kedua                                      ');
+        disp('Definisi lain dari viskositas adalah ukuran yang menyatakan kekentalan suatu         ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==A;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        l=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan:Definisi lain dari viskositas adalah ukuran yang menyatakan kekentalan suatu');
+        disp('CAIRAN');
+        disp(['Skor kamu ', num2str(salah)]);
+        l=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Ketiga                                     ');
+        disp('Viskositas ditetapkan dengan satuan...                                               ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==B;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        m=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Viskositas ditetapkan dengan satuan CENTISTOKES                         ');
+        disp(['Skor kamu ', num2str(salah)]);
+        m=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        end
+        Total=k+l+m
+        skor=Total;
+        if skor> 60
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  A');
+            disp('Yeyyy selamat nilainya bagus lohhh');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        elseif skor<=65 && skor> 40
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  B');
+            disp('Next lebih teliti yaaa, semangattt');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        else
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  C');  
+            disp('Belajarnya harus ditingkatin nih, semangat');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        end
+end
+pilih=menu('Pilih Metode: ','Sejarah Viskositas','Teori Viskositas','Pilihan Ganda','Matching Words');
+switch pilih
+    case 1 
+        disp('Sejarah Viskositas                                         ');
+        input('                                                           ');
+        disp('Sekitar tahun 1840 seorang Irlandia bernama Sir George Stokes melakukan sebuah riset');
+        disp('tentang viskositas. Pengujiannya dengan menjatuhkan partikel ke dalam cairan dan    ');
+        disp('mengukur seberapa cepat partikel tersebut jatuh ke bawah. Dia menemukan bahwa       ');
+        disp('partikel yang sama akan tenggelam pada kecepatan yang berbeda dalam cairan yang     ');
+        disp('berbeda. Stokes menduga ada beberapa jenis gesekan internal dalam cairan yang       ');
+        disp('menyebabkan tingkat jatuh cairan berbeda-beda. Dia menguji teori ini dengan         ');
+        disp('berbeda. Stokes menduga ada beberapa jenis gesekan internal dalam cairan yang       ');
+        disp('menyebabkan tingkat jatuh cairan berbeda-beda.Dia menguji teori ini dengan          ');
+        disp('meletakkan cairan dalam tabung gelas dan mengukur berapa lama cairan mengalir dalam ');
+        disp('jarak tertentu. Tes-tes ini menghasilkan hukum Stokes dan bentuk pengukuran         ');
+        disp('viskositas yang berbeda. Maka ditetapkan dengan satuan centistokes (cSt)digunakan   ');
+        disp('untuk pembacaan yang lebih mudah. Pengukuran viskositas ini diberi istilah kinematik');
+    case 2
+        disp('Teori viskositas                                           ');
+        input('                                                           ');
+        disp('Viskositas adalah suatu cara untuk menyatakan berapa daya tahan dari aliran yang     ');
+        disp('diberikan oleh suatu cairan. Kebanyakan viscometer mengukur kecepatan dari suatu     ');
+        disp('cairan mengalir melalui pipa gelas (gelaskapiler). Definisi lain dari viskositas     ');
+        disp('adalah ukuran yang menyatakan kekentalan suatu cairan atau fluida. Kekentalan        ');
+        disp('merupakan sifat cairan yang berhubungan erat dengan hambatan untuk mengalir.         ');
+        disp('Viskositas cairan akan menimbulkan gesekan antar bagian atau lapisan cairan yang     ');
+        disp('yang bergerak satu terhadap yang lain. Hambatan atau gesekan yang terjadi ditimbulkan');
+        disp('oleh gaya kohesi di dalam zat cair.                                                  ');
+        input('                                                                                     ');
+        disp('Menurut desiria Viskositas atau kekentalan suatu zat cair adalah salah satu sifat    ');
+        disp('cairan yang menentukan besarnya perlawanan terhadap gaya gesar. Viskositas terjadi   ');
+        disp('terutama karena adanya interaksi antara molekul-molekul cairan. Viskositas merupakan ');
+        disp('ukuran gesekan dibagian dalam suatu fluida. Fluida sebenarnya terdiri atas beberapa  ');
+        disp('lapisan, karena adanya viskositas diperlukan gaya untuk meluncurkan suatu lapisan    ');
+        disp('fluida diatas fluida lainnya.                                                        ');
+        input('                                                                                     ');
+        disp('Viskositas dapat ditentukan secara kuantitatif dengan besaran yang disebut koefisien ');
+        disp('viskositas. Banyak cara yang telah digunakan untuk mengukur viskositas, salah satunya');
+        disp('adalah dengan manggunakan metode viskometer bola jatuh, namun metode ini mempunyai   ');
+        disp('beberapa kekurangan. Dari kekurangan itu dan dibutuhkannya sebuah alat praktis dan   ');
+        disp('mudah digunakan untuk mengetahui viskositas maka dibuatlah viskometer rotasi berbasis');
+        disp('mikrokontroler.                                                                      ');
+    case 3
+        disp('Pilihan Ganda                                                                        ');
+        syms A;
+        syms B;
+        syms C;
+        syms D;
+        k=0;
+        l=0;
+        m=0;
+        disp('                                                                                     ');
+        disp('Soal pilihan ganda terdiri dari 3 soal, tuliskan jawaban dengan huruf kapital yaaa   ');
+        disp('====================================Semangattttt!====================================');
+        input('                                                                                     ');
+        disp('                                     Soal Pertama                                    ');
+        disp('Viskositas atau kekentalan suatu zat cair adalah salah satu cairan yang menentukan   ');
+        disp('besarnya perlawanan terhadap gaya gesar. Teori tersebut dikemukakan oleh...          ');
+        disp('A.JJ Thompson    B.James Bond    C.Desiria    D.10230')
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        k=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Menurut desiria Viskositas atau kekentalan suatu zat cair adalah salah satu cairan');
+        disp('yang menentukan besarnya perlawanan terhadap gaya gesar.');
+        input('Jawaban yang tepat adalah C. Desiria');
+        disp(['Skor kamu ', num2str(salah)]);
+        k=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Kedua                                      ');
+        disp('Riset viskositas pertama kali dilakukan pada tahun...                                ');
+        disp('A.1990            B.1980          C.1840      D.1890                                 ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        l=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Sekitar tahun 1840 seorang Irlandia bernama Sir George Stokes melakukan sebuah riset');
+        disp('tentang viskositas.');
+        input('Jawaban yang tepat adalah C.1840');
+        disp(['Skor kamu ', num2str(salah)]);
+        l=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Ketiga                                     ');
+        disp('Pengukuran viskositas diberi istilah dengan...                                       ');
+        disp('A.Kinematik            B.Potensial          C.Kinentik      D.Poliatomik             ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==A;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        m=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Pengukuran viskositas diberi istilah dengan kinematik');
+        input('Jawaban yang tepat adalah A.Kinematik');
+        disp(['Skor kamu ', num2str(salah)]);
+        m=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        Total=k+l+m
+        skor=Total;
+        if skor> 60
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  A');
+            disp('Yeyyy selamat nilainya bagus lohhh');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        elseif skor<=55 && skor> 40
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  B');
+            disp('Next lebih teliti yaaa, semangattt');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        else
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  C');  
+            disp('Belajarnya harus ditingkatin nih, semangat');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        end
+    case 4
+        syms A;
+        syms B;
+        syms C;
+        syms D;
+        syms E;
+        k=0;
+        l=0;
+        m=0;
+        disp('                                                                                     ');
+        disp('Matching Words                                                                          ');
+        disp('Matching Words terdiri dari 3 soal, tuliskan jawaban dengan huruf kapital yaaa          ');
+        disp('====================================Semangattttt!====================================');
+        disp('                                                                                     ');
+        disp('Soal ini merupakan isian singkat');
+        disp('Pilih salah satu jawaban dibawah untuk menjawab tiap soal');
+        disp('A.CAIRAN');
+        disp('B.CENTISTOKES');
+        disp('C.PIPA GELAS');
+        disp('D.VISKOSITAS');
+        disp('E.IRLANDIA');
+        disp('Jawab soal dengan menuliskan opsi menggunakan huruf kapital');
+        input('                                                                                     ');
+        disp('                                     Soal Pertama                                    ');
+        disp('Kebanyakan viskometer mengukur kecepatan dari suatu cairan mengalir melalui...       ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        k=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Kebanyakan viskometer mengukur kecepatan dari suatu cairan mengalir melalui');
+        disp('PIPA GELAS');
+        disp(['Skor kamu ', num2str(salah)]);
+        k=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Kedua                                      ');
+        disp('Definisi lain dari viskositas adalah ukuran yang menyatakan kekentalan suatu         ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==A;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        l=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan:Definisi lain dari viskositas adalah ukuran yang menyatakan kekentalan suatu');
+        disp('CAIRAN');
+        disp(['Skor kamu ', num2str(salah)]);
+        l=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Ketiga                                     ');
+        disp('Viskositas ditetapkan dengan satuan...                                               ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==B;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        m=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Viskositas ditetapkan dengan satuan CENTISTOKES                         ');
+        disp(['Skor kamu ', num2str(salah)]);
+        m=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        end
+        Total=k+l+m
+        skor=Total;
+        if skor> 60
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  A');
+            disp('Yeyyy selamat nilainya bagus lohhh');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        elseif skor<=65 && skor> 40
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  B');
+            disp('Next lebih teliti yaaa, semangattt');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        else
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  C');  
+            disp('Belajarnya harus ditingkatin nih, semangat');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        end
+end
+pilih=menu('Pilih Metode: ','Sejarah Viskositas','Teori Viskositas','Pilihan Ganda','Matching Words');
+switch pilih
+    case 1 
+        disp('Sejarah Viskositas                                         ');
+        input('                                                           ');
+        disp('Sekitar tahun 1840 seorang Irlandia bernama Sir George Stokes melakukan sebuah riset');
+        disp('tentang viskositas. Pengujiannya dengan menjatuhkan partikel ke dalam cairan dan    ');
+        disp('mengukur seberapa cepat partikel tersebut jatuh ke bawah. Dia menemukan bahwa       ');
+        disp('partikel yang sama akan tenggelam pada kecepatan yang berbeda dalam cairan yang     ');
+        disp('berbeda. Stokes menduga ada beberapa jenis gesekan internal dalam cairan yang       ');
+        disp('menyebabkan tingkat jatuh cairan berbeda-beda. Dia menguji teori ini dengan         ');
+        disp('berbeda. Stokes menduga ada beberapa jenis gesekan internal dalam cairan yang       ');
+        disp('menyebabkan tingkat jatuh cairan berbeda-beda.Dia menguji teori ini dengan          ');
+        disp('meletakkan cairan dalam tabung gelas dan mengukur berapa lama cairan mengalir dalam ');
+        disp('jarak tertentu. Tes-tes ini menghasilkan hukum Stokes dan bentuk pengukuran         ');
+        disp('viskositas yang berbeda. Maka ditetapkan dengan satuan centistokes (cSt)digunakan   ');
+        disp('untuk pembacaan yang lebih mudah. Pengukuran viskositas ini diberi istilah kinematik');
+    case 2
+        disp('Teori viskositas                                           ');
+        input('                                                           ');
+        disp('Viskositas adalah suatu cara untuk menyatakan berapa daya tahan dari aliran yang     ');
+        disp('diberikan oleh suatu cairan. Kebanyakan viscometer mengukur kecepatan dari suatu     ');
+        disp('cairan mengalir melalui pipa gelas (gelaskapiler). Definisi lain dari viskositas     ');
+        disp('adalah ukuran yang menyatakan kekentalan suatu cairan atau fluida. Kekentalan        ');
+        disp('merupakan sifat cairan yang berhubungan erat dengan hambatan untuk mengalir.         ');
+        disp('Viskositas cairan akan menimbulkan gesekan antar bagian atau lapisan cairan yang     ');
+        disp('yang bergerak satu terhadap yang lain. Hambatan atau gesekan yang terjadi ditimbulkan');
+        disp('oleh gaya kohesi di dalam zat cair.                                                  ');
+        input('                                                                                     ');
+        disp('Menurut desiria Viskositas atau kekentalan suatu zat cair adalah salah satu sifat    ');
+        disp('cairan yang menentukan besarnya perlawanan terhadap gaya gesar. Viskositas terjadi   ');
+        disp('terutama karena adanya interaksi antara molekul-molekul cairan. Viskositas merupakan ');
+        disp('ukuran gesekan dibagian dalam suatu fluida. Fluida sebenarnya terdiri atas beberapa  ');
+        disp('lapisan, karena adanya viskositas diperlukan gaya untuk meluncurkan suatu lapisan    ');
+        disp('fluida diatas fluida lainnya.                                                        ');
+        input('                                                                                     ');
+        disp('Viskositas dapat ditentukan secara kuantitatif dengan besaran yang disebut koefisien ');
+        disp('viskositas. Banyak cara yang telah digunakan untuk mengukur viskositas, salah satunya');
+        disp('adalah dengan manggunakan metode viskometer bola jatuh, namun metode ini mempunyai   ');
+        disp('beberapa kekurangan. Dari kekurangan itu dan dibutuhkannya sebuah alat praktis dan   ');
+        disp('mudah digunakan untuk mengetahui viskositas maka dibuatlah viskometer rotasi berbasis');
+        disp('mikrokontroler.                                                                      ');
+    case 3
+        disp('Pilihan Ganda                                                                        ');
+        syms A;
+        syms B;
+        syms C;
+        syms D;
+        k=0;
+        l=0;
+        m=0;
+        disp('                                                                                     ');
+        disp('Soal pilihan ganda terdiri dari 3 soal, tuliskan jawaban dengan huruf kapital yaaa   ');
+        disp('====================================Semangattttt!====================================');
+        input('                                                                                     ');
+        disp('                                     Soal Pertama                                    ');
+        disp('Viskositas atau kekentalan suatu zat cair adalah salah satu cairan yang menentukan   ');
+        disp('besarnya perlawanan terhadap gaya gesar. Teori tersebut dikemukakan oleh...          ');
+        disp('A.JJ Thompson    B.James Bond    C.Desiria    D.10230')
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        k=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Menurut desiria Viskositas atau kekentalan suatu zat cair adalah salah satu cairan');
+        disp('yang menentukan besarnya perlawanan terhadap gaya gesar.');
+        input('Jawaban yang tepat adalah C. Desiria');
+        disp(['Skor kamu ', num2str(salah)]);
+        k=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Kedua                                      ');
+        disp('Riset viskositas pertama kali dilakukan pada tahun...                                ');
+        disp('A.1990            B.1980          C.1840      D.1890                                 ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        l=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Sekitar tahun 1840 seorang Irlandia bernama Sir George Stokes melakukan sebuah riset');
+        disp('tentang viskositas.');
+        input('Jawaban yang tepat adalah C.1840');
+        disp(['Skor kamu ', num2str(salah)]);
+        l=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Ketiga                                     ');
+        disp('Pengukuran viskositas diberi istilah dengan...                                       ');
+        disp('A.Kinematik            B.Potensial          C.Kinentik      D.Poliatomik             ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==A;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        m=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Pengukuran viskositas diberi istilah dengan kinematik');
+        input('Jawaban yang tepat adalah A.Kinematik');
+        disp(['Skor kamu ', num2str(salah)]);
+        m=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        Total=k+l+m
+        skor=Total;
+        if skor> 60
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  A');
+            disp('Yeyyy selamat nilainya bagus lohhh');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        elseif skor<=55 && skor> 40
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  B');
+            disp('Next lebih teliti yaaa, semangattt');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        else
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  C');  
+            disp('Belajarnya harus ditingkatin nih, semangat');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        end
+    case 4
+        syms A;
+        syms B;
+        syms C;
+        syms D;
+        syms E;
+        k=0;
+        l=0;
+        m=0;
+        disp('                                                                                     ');
+        disp('Matching Words                                                                          ');
+        disp('Matching Words terdiri dari 3 soal, tuliskan jawaban dengan huruf kapital yaaa          ');
+        disp('====================================Semangattttt!====================================');
+        disp('                                                                                     ');
+        disp('Soal ini merupakan isian singkat');
+        disp('Pilih salah satu jawaban dibawah untuk menjawab tiap soal');
+        disp('A.CAIRAN');
+        disp('B.CENTISTOKES');
+        disp('C.PIPA GELAS');
+        disp('D.VISKOSITAS');
+        disp('E.IRLANDIA');
+        disp('Jawab soal dengan menuliskan opsi menggunakan huruf kapital');
+        input('                                                                                     ');
+        disp('                                     Soal Pertama                                    ');
+        disp('Kebanyakan viskometer mengukur kecepatan dari suatu cairan mengalir melalui...       ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        k=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Kebanyakan viskometer mengukur kecepatan dari suatu cairan mengalir melalui');
+        disp('PIPA GELAS');
+        disp(['Skor kamu ', num2str(salah)]);
+        k=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Kedua                                      ');
+        disp('Definisi lain dari viskositas adalah ukuran yang menyatakan kekentalan suatu         ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==A;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        l=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan:Definisi lain dari viskositas adalah ukuran yang menyatakan kekentalan suatu');
+        disp('CAIRAN');
+        disp(['Skor kamu ', num2str(salah)]);
+        l=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Ketiga                                     ');
+        disp('Viskositas ditetapkan dengan satuan...                                               ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==B;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        m=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Viskositas ditetapkan dengan satuan CENTISTOKES                         ');
+        disp(['Skor kamu ', num2str(salah)]);
+        m=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        end
+        Total=k+l+m
+        skor=Total;
+        if skor> 60
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  A');
+            disp('Yeyyy selamat nilainya bagus lohhh');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        elseif skor<=65 && skor> 40
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  B');
+            disp('Next lebih teliti yaaa, semangattt');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        else
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  C');  
+            disp('Belajarnya harus ditingkatin nih, semangat');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        end
+end
+pilih=menu('Pilih Metode: ','Sejarah Viskositas','Teori Viskositas','Pilihan Ganda','Matching Words');
+switch pilih
+    case 1 
+        disp('Sejarah Viskositas                                         ');
+        input('                                                           ');
+        disp('Sekitar tahun 1840 seorang Irlandia bernama Sir George Stokes melakukan sebuah riset');
+        disp('tentang viskositas. Pengujiannya dengan menjatuhkan partikel ke dalam cairan dan    ');
+        disp('mengukur seberapa cepat partikel tersebut jatuh ke bawah. Dia menemukan bahwa       ');
+        disp('partikel yang sama akan tenggelam pada kecepatan yang berbeda dalam cairan yang     ');
+        disp('berbeda. Stokes menduga ada beberapa jenis gesekan internal dalam cairan yang       ');
+        disp('menyebabkan tingkat jatuh cairan berbeda-beda. Dia menguji teori ini dengan         ');
+        disp('berbeda. Stokes menduga ada beberapa jenis gesekan internal dalam cairan yang       ');
+        disp('menyebabkan tingkat jatuh cairan berbeda-beda.Dia menguji teori ini dengan          ');
+        disp('meletakkan cairan dalam tabung gelas dan mengukur berapa lama cairan mengalir dalam ');
+        disp('jarak tertentu. Tes-tes ini menghasilkan hukum Stokes dan bentuk pengukuran         ');
+        disp('viskositas yang berbeda. Maka ditetapkan dengan satuan centistokes (cSt)digunakan   ');
+        disp('untuk pembacaan yang lebih mudah. Pengukuran viskositas ini diberi istilah kinematik');
+    case 2
+        disp('Teori viskositas                                           ');
+        input('                                                           ');
+        disp('Viskositas adalah suatu cara untuk menyatakan berapa daya tahan dari aliran yang     ');
+        disp('diberikan oleh suatu cairan. Kebanyakan viscometer mengukur kecepatan dari suatu     ');
+        disp('cairan mengalir melalui pipa gelas (gelaskapiler). Definisi lain dari viskositas     ');
+        disp('adalah ukuran yang menyatakan kekentalan suatu cairan atau fluida. Kekentalan        ');
+        disp('merupakan sifat cairan yang berhubungan erat dengan hambatan untuk mengalir.         ');
+        disp('Viskositas cairan akan menimbulkan gesekan antar bagian atau lapisan cairan yang     ');
+        disp('yang bergerak satu terhadap yang lain. Hambatan atau gesekan yang terjadi ditimbulkan');
+        disp('oleh gaya kohesi di dalam zat cair.                                                  ');
+        input('                                                                                     ');
+        disp('Menurut desiria Viskositas atau kekentalan suatu zat cair adalah salah satu sifat    ');
+        disp('cairan yang menentukan besarnya perlawanan terhadap gaya gesar. Viskositas terjadi   ');
+        disp('terutama karena adanya interaksi antara molekul-molekul cairan. Viskositas merupakan ');
+        disp('ukuran gesekan dibagian dalam suatu fluida. Fluida sebenarnya terdiri atas beberapa  ');
+        disp('lapisan, karena adanya viskositas diperlukan gaya untuk meluncurkan suatu lapisan    ');
+        disp('fluida diatas fluida lainnya.                                                        ');
+        input('                                                                                     ');
+        disp('Viskositas dapat ditentukan secara kuantitatif dengan besaran yang disebut koefisien ');
+        disp('viskositas. Banyak cara yang telah digunakan untuk mengukur viskositas, salah satunya');
+        disp('adalah dengan manggunakan metode viskometer bola jatuh, namun metode ini mempunyai   ');
+        disp('beberapa kekurangan. Dari kekurangan itu dan dibutuhkannya sebuah alat praktis dan   ');
+        disp('mudah digunakan untuk mengetahui viskositas maka dibuatlah viskometer rotasi berbasis');
+        disp('mikrokontroler.                                                                      ');
+    case 3
+        disp('Pilihan Ganda                                                                        ');
+        syms A;
+        syms B;
+        syms C;
+        syms D;
+        k=0;
+        l=0;
+        m=0;
+        disp('                                                                                     ');
+        disp('Soal pilihan ganda terdiri dari 3 soal, tuliskan jawaban dengan huruf kapital yaaa   ');
+        disp('====================================Semangattttt!====================================');
+        input('                                                                                     ');
+        disp('                                     Soal Pertama                                    ');
+        disp('Viskositas atau kekentalan suatu zat cair adalah salah satu cairan yang menentukan   ');
+        disp('besarnya perlawanan terhadap gaya gesar. Teori tersebut dikemukakan oleh...          ');
+        disp('A.JJ Thompson    B.James Bond    C.Desiria    D.10230')
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        k=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Menurut desiria Viskositas atau kekentalan suatu zat cair adalah salah satu cairan');
+        disp('yang menentukan besarnya perlawanan terhadap gaya gesar.');
+        input('Jawaban yang tepat adalah C. Desiria');
+        disp(['Skor kamu ', num2str(salah)]);
+        k=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Kedua                                      ');
+        disp('Riset viskositas pertama kali dilakukan pada tahun...                                ');
+        disp('A.1990            B.1980          C.1840      D.1890                                 ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        l=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Sekitar tahun 1840 seorang Irlandia bernama Sir George Stokes melakukan sebuah riset');
+        disp('tentang viskositas.');
+        input('Jawaban yang tepat adalah C.1840');
+        disp(['Skor kamu ', num2str(salah)]);
+        l=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Ketiga                                     ');
+        disp('Pengukuran viskositas diberi istilah dengan...                                       ');
+        disp('A.Kinematik            B.Potensial          C.Kinentik      D.Poliatomik             ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==A;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        m=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Pengukuran viskositas diberi istilah dengan kinematik');
+        input('Jawaban yang tepat adalah A.Kinematik');
+        disp(['Skor kamu ', num2str(salah)]);
+        m=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        Total=k+l+m
+        skor=Total;
+        if skor> 60
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  A');
+            disp('Yeyyy selamat nilainya bagus lohhh');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        elseif skor<=55 && skor> 40
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  B');
+            disp('Next lebih teliti yaaa, semangattt');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        else
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  C');  
+            disp('Belajarnya harus ditingkatin nih, semangat');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        end
+    case 4
+        syms A;
+        syms B;
+        syms C;
+        syms D;
+        syms E;
+        k=0;
+        l=0;
+        m=0;
+        disp('                                                                                     ');
+        disp('Matching Words                                                                          ');
+        disp('Matching Words terdiri dari 3 soal, tuliskan jawaban dengan huruf kapital yaaa          ');
+        disp('====================================Semangattttt!====================================');
+        disp('                                                                                     ');
+        disp('Soal ini merupakan isian singkat');
+        disp('Pilih salah satu jawaban dibawah untuk menjawab tiap soal');
+        disp('A.CAIRAN');
+        disp('B.CENTISTOKES');
+        disp('C.PIPA GELAS');
+        disp('D.VISKOSITAS');
+        disp('E.IRLANDIA');
+        disp('Jawab soal dengan menuliskan opsi menggunakan huruf kapital');
+        input('                                                                                     ');
+        disp('                                     Soal Pertama                                    ');
+        disp('Kebanyakan viskometer mengukur kecepatan dari suatu cairan mengalir melalui...       ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==C;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        k=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Kebanyakan viskometer mengukur kecepatan dari suatu cairan mengalir melalui');
+        disp('PIPA GELAS');
+        disp(['Skor kamu ', num2str(salah)]);
+        k=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Kedua                                      ');
+        disp('Definisi lain dari viskositas adalah ukuran yang menyatakan kekentalan suatu         ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==A;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        l=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan:Definisi lain dari viskositas adalah ukuran yang menyatakan kekentalan suatu');
+        disp('CAIRAN');
+        disp(['Skor kamu ', num2str(salah)]);
+        l=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        disp('                                                                                     ');
+        end
+        input('                                                                                     ');
+        disp('                                     Soal Ketiga                                     ');
+        disp('Viskositas ditetapkan dengan satuan...                                               ');
+        c1=input('Jawab = ');
+        benar=25;
+        salah=0;
+        if c1==B;
+        input('Yey jawaban kamu benar, selamat!');
+        disp(['Skor kamu ', num2str(benar)]);
+        m=benar;
+        else
+        input('Salah, lihat pembahasan dengan tekan enter');
+        input('Pembahasan: Viskositas ditetapkan dengan satuan CENTISTOKES                         ');
+        disp(['Skor kamu ', num2str(salah)]);
+        m=salah;
+        disp('Jangan putus asa, tetap semangat yaaa!');
+        end
+        Total=k+l+m
+        skor=Total;
+        if skor> 60
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  A');
+            disp('Yeyyy selamat nilainya bagus lohhh');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        elseif skor<=65 && skor> 40
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  B');
+            disp('Next lebih teliti yaaa, semangattt');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        else
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+            disp(['Total skor anda adalah : ' num2str(skor)]);
+            disp('Grade  C');  
+            disp('Belajarnya harus ditingkatin nih, semangat');
+            disp('-----------------------------------------------------------------------------------------------------------------------------');
+        end
+end
